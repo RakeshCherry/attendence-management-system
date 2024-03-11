@@ -17,8 +17,6 @@ public class Employee {
         this.outTime = outTime;
         this.status = status;
     }
-
-    // Getters and Setters (you can generate them in Eclipse for convenience)
     
     public int getEmployeeId() {
         return employeeId;
@@ -28,9 +26,6 @@ public class Employee {
         this.employeeId = employeeId;
     }
 
-    // Repeat the above for other attributes...
-
-    // Display method for testing
     public void displayDetails() {
         System.out.println("Employee ID: " + employeeId);
         System.out.println("Employee Name: " + employeeName);
@@ -43,8 +38,6 @@ public class Employee {
 
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// Test your Employee class here
 		Scanner userInput = new Scanner(System.in);
 		System.out.print("Enter Employee ID: ");
         int employeeId = userInput.nextInt();
